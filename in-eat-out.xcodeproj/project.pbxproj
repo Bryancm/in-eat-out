@@ -7,21 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37931ADB0FE6C96DCACFC061 /* Pods_in_eat_out.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0B2689E51C5C108324EB32 /* Pods_in_eat_out.framework */; };
+		72087E63203D179000B98576 /* Metodo_Pago_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087E62203D179000B98576 /* Metodo_Pago_ViewController.swift */; };
+		721A9A2C20311AB6006A4281 /* Platillos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A2B20311AB6006A4281 /* Platillos.swift */; };
+		721A9A2E20311AD4006A4281 /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A2D20311AD4006A4281 /* Bebidas.swift */; };
+		721A9A3020311AEC006A4281 /* Orden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A2F20311AEC006A4281 /* Orden.swift */; };
+		721A9A3220311D54006A4281 /* Categoria_Platillos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A3120311D54006A4281 /* Categoria_Platillos.swift */; };
+		721A9A3420311ECF006A4281 /* Categoria_Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A3320311ECF006A4281 /* Categoria_Bebidas.swift */; };
+		721A9A3620312809006A4281 /* Categoria_Platillos_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A3520312809006A4281 /* Categoria_Platillos_ViewController.swift */; };
+		721A9A3920312B0A006A4281 /* Categoria_Platillos_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A9A3820312B0A006A4281 /* Categoria_Platillos_TableViewCell.swift */; };
+		722940F220314BA000948538 /* Lista_Platillos_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940F120314BA000948538 /* Lista_Platillos_ViewController.swift */; };
+		722940F420314CF500948538 /* Platillo_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940F320314CF500948538 /* Platillo_TableViewCell.swift */; };
+		722940F62031644E00948538 /* Orden_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940F52031644E00948538 /* Orden_ViewController.swift */; };
+		722940F82031656200948538 /* Order_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940F72031656200948538 /* Order_TableViewCell.swift */; };
+		722940FA20316F1E00948538 /* Categoria_Bebidas_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940F920316F1E00948538 /* Categoria_Bebidas_ViewController.swift */; };
+		722940FC2031704600948538 /* Categoria_Bebidas_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940FB2031704600948538 /* Categoria_Bebidas_TableViewCell.swift */; };
+		722940FE2031723F00948538 /* Lista_Bebidas_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940FD2031723F00948538 /* Lista_Bebidas_ViewController.swift */; };
+		722941002031738500948538 /* Bebidas_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722940FF2031738500948538 /* Bebidas_TableViewCell.swift */; };
 		7241C8AA202B38F800CDFB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241C8A9202B38F800CDFB67 /* AppDelegate.swift */; };
 		7241C8AC202B38F800CDFB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241C8AB202B38F800CDFB67 /* ViewController.swift */; };
-		7241C8AF202B38F800CDFB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7241C8AD202B38F800CDFB67 /* Main.storyboard */; };
 		7241C8B1202B38F800CDFB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7241C8B0202B38F800CDFB67 /* Assets.xcassets */; };
 		7241C8B4202B38F800CDFB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7241C8B2202B38F800CDFB67 /* LaunchScreen.storyboard */; };
+		7286B89F202FB6E5002F4517 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7286B89E202FB6E5002F4517 /* MenuViewController.swift */; };
+		72B177242041FE710060F882 /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177212041FD4B0060F882 /* Openpay.framework */; };
+		72B177262041FE7C0060F882 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177252041FE7C0060F882 /* WebKit.framework */; };
+		72B1772A20421E9F0060F882 /* Openpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177212041FD4B0060F882 /* Openpay.framework */; };
+		72B1772B20421E9F0060F882 /* Openpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177212041FD4B0060F882 /* Openpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72B177302042F2150060F882 /* Confirmar_PagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1772F2042F2150060F882 /* Confirmar_PagoViewController.swift */; };
+		72C338A5207E53BE00716FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C338A3207E53BE00716FCF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		72B177202041FD4B0060F882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B1771C2041FD4B0060F882 /* Openpay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7291905E1DA42AF800C0CD07;
+			remoteInfo = Openpay;
+		};
+		72B1772C20421E9F0060F882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B1771C2041FD4B0060F882 /* Openpay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7291905D1DA42AF800C0CD07;
+			remoteInfo = Openpay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72B1772E20421E9F0060F882 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72B1772B20421E9F0060F882 /* Openpay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		060AFF2918C2141652AC5638 /* Pods-in-eat-out.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-in-eat-out.release.xcconfig"; path = "Pods/Target Support Files/Pods-in-eat-out/Pods-in-eat-out.release.xcconfig"; sourceTree = "<group>"; };
+		3A0B2689E51C5C108324EB32 /* Pods_in_eat_out.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_in_eat_out.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1A5C5F91EA1FF3660149E3 /* Pods-in-eat-out.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-in-eat-out.debug.xcconfig"; path = "Pods/Target Support Files/Pods-in-eat-out/Pods-in-eat-out.debug.xcconfig"; sourceTree = "<group>"; };
+		72087E62203D179000B98576 /* Metodo_Pago_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metodo_Pago_ViewController.swift; sourceTree = "<group>"; };
+		721A9A2B20311AB6006A4281 /* Platillos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platillos.swift; sourceTree = "<group>"; };
+		721A9A2D20311AD4006A4281 /* Bebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebidas.swift; sourceTree = "<group>"; };
+		721A9A2F20311AEC006A4281 /* Orden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orden.swift; sourceTree = "<group>"; };
+		721A9A3120311D54006A4281 /* Categoria_Platillos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Platillos.swift; sourceTree = "<group>"; };
+		721A9A3320311ECF006A4281 /* Categoria_Bebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Bebidas.swift; sourceTree = "<group>"; };
+		721A9A3520312809006A4281 /* Categoria_Platillos_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Platillos_ViewController.swift; sourceTree = "<group>"; };
+		721A9A3820312B0A006A4281 /* Categoria_Platillos_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Platillos_TableViewCell.swift; sourceTree = "<group>"; };
+		722940F120314BA000948538 /* Lista_Platillos_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_Platillos_ViewController.swift; sourceTree = "<group>"; };
+		722940F320314CF500948538 /* Platillo_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platillo_TableViewCell.swift; sourceTree = "<group>"; };
+		722940F52031644E00948538 /* Orden_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orden_ViewController.swift; sourceTree = "<group>"; };
+		722940F72031656200948538 /* Order_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_TableViewCell.swift; sourceTree = "<group>"; };
+		722940F920316F1E00948538 /* Categoria_Bebidas_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Bebidas_ViewController.swift; sourceTree = "<group>"; };
+		722940FB2031704600948538 /* Categoria_Bebidas_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria_Bebidas_TableViewCell.swift; sourceTree = "<group>"; };
+		722940FD2031723F00948538 /* Lista_Bebidas_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_Bebidas_ViewController.swift; sourceTree = "<group>"; };
+		722940FF2031738500948538 /* Bebidas_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebidas_TableViewCell.swift; sourceTree = "<group>"; };
 		7241C8A6202B38F800CDFB67 /* in-eat-out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "in-eat-out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7241C8A9202B38F800CDFB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7241C8AB202B38F800CDFB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7241C8AE202B38F800CDFB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7241C8B0202B38F800CDFB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7241C8B3202B38F800CDFB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7241C8B5202B38F800CDFB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7286B89E202FB6E5002F4517 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		72B1771A2041FC5E0060F882 /* v2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = v2; sourceTree = "<group>"; };
+		72B1771C2041FD4B0060F882 /* Openpay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Openpay.xcodeproj; path = v2/Openpay/Openpay.xcodeproj; sourceTree = "<group>"; };
+		72B177222041FD800060F882 /* Openpay */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Openpay; path = v2/Openpay; sourceTree = "<group>"; };
+		72B177252041FE7C0060F882 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		72B1772F2042F2150060F882 /* Confirmar_PagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmar_PagoViewController.swift; sourceTree = "<group>"; };
+		72C338A4207E53BE00716FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +108,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B177262041FE7C0060F882 /* WebKit.framework in Frameworks */,
+				72B177242041FE710060F882 /* Openpay.framework in Frameworks */,
+				72B1772A20421E9F0060F882 /* Openpay.framework in Frameworks */,
+				37931ADB0FE6C96DCACFC061 /* Pods_in_eat_out.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721A9A2A20311A6C006A4281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				721A9A2B20311AB6006A4281 /* Platillos.swift */,
+				721A9A2D20311AD4006A4281 /* Bebidas.swift */,
+				721A9A2F20311AEC006A4281 /* Orden.swift */,
+				721A9A3120311D54006A4281 /* Categoria_Platillos.swift */,
+				721A9A3320311ECF006A4281 /* Categoria_Bebidas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		721A9A3720312AE6006A4281 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				721A9A3820312B0A006A4281 /* Categoria_Platillos_TableViewCell.swift */,
+				722940F320314CF500948538 /* Platillo_TableViewCell.swift */,
+				722940F72031656200948538 /* Order_TableViewCell.swift */,
+				722940FB2031704600948538 /* Categoria_Bebidas_TableViewCell.swift */,
+				722940FF2031738500948538 /* Bebidas_TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7241C89D202B38F800CDFB67 = {
 			isa = PBXGroup;
 			children = (
 				7241C8A8202B38F800CDFB67 /* in-eat-out */,
 				7241C8A7202B38F800CDFB67 /* Products */,
+				72B177192041FC5D0060F882 /* Frameworks */,
+				7F27142026C267936C030A7C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +163,61 @@
 		7241C8A8202B38F800CDFB67 /* in-eat-out */ = {
 			isa = PBXGroup;
 			children = (
+				721A9A2A20311A6C006A4281 /* Models */,
+				721A9A3720312AE6006A4281 /* Views */,
+				7286B8A0202FB781002F4517 /* Controllers */,
 				7241C8A9202B38F800CDFB67 /* AppDelegate.swift */,
-				7241C8AB202B38F800CDFB67 /* ViewController.swift */,
-				7241C8AD202B38F800CDFB67 /* Main.storyboard */,
+				72C338A3207E53BE00716FCF /* Main.storyboard */,
 				7241C8B0202B38F800CDFB67 /* Assets.xcassets */,
 				7241C8B2202B38F800CDFB67 /* LaunchScreen.storyboard */,
 				7241C8B5202B38F800CDFB67 /* Info.plist */,
 			);
 			path = "in-eat-out";
+			sourceTree = "<group>";
+		};
+		7286B8A0202FB781002F4517 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7241C8AB202B38F800CDFB67 /* ViewController.swift */,
+				7286B89E202FB6E5002F4517 /* MenuViewController.swift */,
+				721A9A3520312809006A4281 /* Categoria_Platillos_ViewController.swift */,
+				722940F120314BA000948538 /* Lista_Platillos_ViewController.swift */,
+				722940F52031644E00948538 /* Orden_ViewController.swift */,
+				722940F920316F1E00948538 /* Categoria_Bebidas_ViewController.swift */,
+				722940FD2031723F00948538 /* Lista_Bebidas_ViewController.swift */,
+				72087E62203D179000B98576 /* Metodo_Pago_ViewController.swift */,
+				72B1772F2042F2150060F882 /* Confirmar_PagoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72B177192041FC5D0060F882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B177252041FE7C0060F882 /* WebKit.framework */,
+				72B177222041FD800060F882 /* Openpay */,
+				72B1771C2041FD4B0060F882 /* Openpay.xcodeproj */,
+				72B1771A2041FC5E0060F882 /* v2 */,
+				3A0B2689E51C5C108324EB32 /* Pods_in_eat_out.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B1771D2041FD4B0060F882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B177212041FD4B0060F882 /* Openpay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F27142026C267936C030A7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1A5C5F91EA1FF3660149E3 /* Pods-in-eat-out.debug.xcconfig */,
+				060AFF2918C2141652AC5638 /* Pods-in-eat-out.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +227,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7241C8B8202B38F800CDFB67 /* Build configuration list for PBXNativeTarget "in-eat-out" */;
 			buildPhases = (
+				9EDC82F50AF58797A2BF40DE /* [CP] Check Pods Manifest.lock */,
 				7241C8A2202B38F800CDFB67 /* Sources */,
 				7241C8A3202B38F800CDFB67 /* Frameworks */,
 				7241C8A4202B38F800CDFB67 /* Resources */,
+				72B1772E20421E9F0060F882 /* Embed Frameworks */,
+				220A1DB2F2B3C8368C3F46B1 /* [CP] Embed Pods Frameworks */,
+				2C53EC9DF1FF4B46DFA2DEA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72B1772D20421E9F0060F882 /* PBXTargetDependency */,
 			);
 			name = "in-eat-out";
 			productName = "in-eat-out";
@@ -111,6 +272,12 @@
 			mainGroup = 7241C89D202B38F800CDFB67;
 			productRefGroup = 7241C8A7202B38F800CDFB67 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 72B1771D2041FD4B0060F882 /* Products */;
+					ProjectRef = 72B1771C2041FD4B0060F882 /* Openpay.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7241C8A5202B38F800CDFB67 /* in-eat-out */,
@@ -118,46 +285,138 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		72B177212041FD4B0060F882 /* Openpay.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Openpay.framework;
+			remoteRef = 72B177202041FD4B0060F882 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7241C8A4202B38F800CDFB67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C338A5207E53BE00716FCF /* Main.storyboard in Resources */,
 				7241C8B4202B38F800CDFB67 /* LaunchScreen.storyboard in Resources */,
 				7241C8B1202B38F800CDFB67 /* Assets.xcassets in Resources */,
-				7241C8AF202B38F800CDFB67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220A1DB2F2B3C8368C3F46B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-in-eat-out/Pods-in-eat-out-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-in-eat-out/Pods-in-eat-out-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C53EC9DF1FF4B46DFA2DEA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-in-eat-out/Pods-in-eat-out-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EDC82F50AF58797A2BF40DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-in-eat-out-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7241C8A2202B38F800CDFB67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721A9A3020311AEC006A4281 /* Orden.swift in Sources */,
 				7241C8AC202B38F800CDFB67 /* ViewController.swift in Sources */,
+				721A9A3420311ECF006A4281 /* Categoria_Bebidas.swift in Sources */,
+				721A9A3620312809006A4281 /* Categoria_Platillos_ViewController.swift in Sources */,
+				722940F82031656200948538 /* Order_TableViewCell.swift in Sources */,
 				7241C8AA202B38F800CDFB67 /* AppDelegate.swift in Sources */,
+				722941002031738500948538 /* Bebidas_TableViewCell.swift in Sources */,
+				721A9A2C20311AB6006A4281 /* Platillos.swift in Sources */,
+				722940F62031644E00948538 /* Orden_ViewController.swift in Sources */,
+				721A9A3220311D54006A4281 /* Categoria_Platillos.swift in Sources */,
+				7286B89F202FB6E5002F4517 /* MenuViewController.swift in Sources */,
+				722940FE2031723F00948538 /* Lista_Bebidas_ViewController.swift in Sources */,
+				722940FC2031704600948538 /* Categoria_Bebidas_TableViewCell.swift in Sources */,
+				721A9A3920312B0A006A4281 /* Categoria_Platillos_TableViewCell.swift in Sources */,
+				722940F220314BA000948538 /* Lista_Platillos_ViewController.swift in Sources */,
+				72B177302042F2150060F882 /* Confirmar_PagoViewController.swift in Sources */,
+				722940FA20316F1E00948538 /* Categoria_Bebidas_ViewController.swift in Sources */,
+				72087E63203D179000B98576 /* Metodo_Pago_ViewController.swift in Sources */,
+				722940F420314CF500948538 /* Platillo_TableViewCell.swift in Sources */,
+				721A9A2E20311AD4006A4281 /* Bebidas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7241C8AD202B38F800CDFB67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7241C8AE202B38F800CDFB67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		72B1772D20421E9F0060F882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Openpay;
+			targetProxy = 72B1772C20421E9F0060F882 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		7241C8B2202B38F800CDFB67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7241C8B3202B38F800CDFB67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		72C338A3207E53BE00716FCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C338A4207E53BE00716FCF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,9 +531,12 @@
 		};
 		7241C8B9202B38F800CDFB67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1A5C5F91EA1FF3660149E3 /* Pods-in-eat-out.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FURRD6GXL;
 				INFOPLIST_FILE = "in-eat-out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BryanMtz.in-eat-out";
@@ -286,9 +548,12 @@
 		};
 		7241C8BA202B38F800CDFB67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060AFF2918C2141652AC5638 /* Pods-in-eat-out.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FURRD6GXL;
 				INFOPLIST_FILE = "in-eat-out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BryanMtz.in-eat-out";
